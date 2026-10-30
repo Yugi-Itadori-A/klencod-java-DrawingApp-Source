@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'tesiet.be.com'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'tesiet.be.com'
+        minSdk 23
+        targetSdk 35
+    // FileProvider for secure image sharing
+    
+        versionCode 2
+        versionName '2.0'
+    }
+}
+
+dependencies { implementation 'androidx.core:core:1.13.1' }
